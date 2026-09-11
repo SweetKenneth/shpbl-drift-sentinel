@@ -1,0 +1,33 @@
+{
+  "name": "shpbl-drift-sentinel",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Agent Behaviour Drift Sentinel: detects silent behavioural drift in agent execution traces against a signed baseline. Reference implementation of the public SHPBL behaviour specification.",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "shpbl-drift-sentinel": "src/mcp-server.ts"
+  },
+  "scripts": {
+    "test": "bun test",
+    "scan": "bun run scripts/symbol-scan.ts",
+    "typecheck": "tsgo --noEmit -p tsconfig.json"
+  },
+  "dependencies": {},
+  "keywords": [
+    "agent",
+    "drift",
+    "behaviour",
+    "security",
+    "mcp"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "bun-types": "^1.4.2"
+  },
+  "author": "Kenneth E. Sweet Jr.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetKenneth/shpbl-drift-sentinel.git"
+  }
+}
