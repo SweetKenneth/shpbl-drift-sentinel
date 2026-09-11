@@ -126,9 +126,8 @@ implementation bodies, and private provenance machinery are not included.
 
 ## Tenable status
 
-Independent open-source project being prepared for submission to the Tenable CyberAgents
-Exchange. Not submitted to, reviewed by, approved by, certified by, validated by or endorsed by
-Tenable or any other vendor.
+Submitted to the [Tenable CyberAgents Exchange for review on September 11, 2026](https://github.com/tenable/cyberagents-exchange/pull/167).
+Submission does not imply review, approval, certification, validation, endorsement, or acceptance by Tenable.
 
 ## SHPBL Agent Evidence series
 
